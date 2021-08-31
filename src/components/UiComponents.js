@@ -86,12 +86,12 @@ export const Header = styled(HeaderSrc)`
 `;
 
 export const Page = styled.div`
-        background-color: #000;
+        background-color: #fff;
         margin:0px auto;
         align-items: center;
         justify-content: center;
         h1 {
-            color:#fff;
+            color:#000;
         }
 `;
 

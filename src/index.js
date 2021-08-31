@@ -1,9 +1,10 @@
-import React, { useState } from 'react'
+import React, { Fragment, useState } from 'react'
 import ReactDOM from 'react-dom'
 import {BrowserRouter, Switch, Route, NavLink} from "react-router-dom";
 import { Feather, ShoppingCart } from 'react-feather';
-
+import App from './components/App';
 import {GlobalStyle, Menu, Header, Page, Hamburger} from './components/UiComponents'
+import Burger from "./components/Burger";
 
 if (process.env.NODE_ENV === 'production')
     var url = window.location.origin;
@@ -30,6 +31,9 @@ function Root() {
         </Header>
         
     </BrowserRouter>
+    <Page>
+        <Burger />
+    </Page>
 </>;
 
 }

@@ -1,0 +1,32 @@
+.container .container__content .container__content__burgers .container__content__burgers--image {
+    margin-top: -50px;
+    max-width: 250px;
+    max-height: 150px;
+  }
+  .containerizacion {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+  .four.columns                   { width: 30.6666666667%; }
+ 
+  .card {
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    background: white;
+}
+
+.info-card  {
+    padding: 10px 20px;
+}
+
+.row {
+    margin-bottom:20px;
+    display:flex;
+    justify-content: space-evenly;
+}
